@@ -1,0 +1,42 @@
+#home .content {
+  position: relative;
+}
+
+#home .content img {
+  width: 100%;
+}
+
+#home .content .btn-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 32%;
+  top: 43%;
+  width: 18%;
+}
+
+#home .content .btn-field .btn {
+  margin-right: 5%;
+}
+
+#home .content .btn-field .btn .default {
+  display: block;
+}
+
+#home .content .btn-field .btn .hover {
+  display: none;
+}
+
+#home .content .btn-field .btn:hover .default {
+  display: none;
+}
+
+#home .content .btn-field .btn:hover .hover {
+  display: block;
+}
+
+#home .content .btn-field .btn img {
+  width: 100%;
+}
